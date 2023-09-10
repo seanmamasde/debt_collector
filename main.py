@@ -50,7 +50,7 @@ def handle(event):
 
     if msg[0] == "/":
         if msg.split()[0] == "/add" and all(
-            char.isnumeric() for char in msg.split()[-1]
+            char.isnumeric() for char in msg.split()[-1].lstrip("+-")
         ):
             # the last place in the command is a number
             reply_text = add(
