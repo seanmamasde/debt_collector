@@ -4,7 +4,7 @@
 
 **Setting Up**
 
--   Have a `config.py` file which contains your `CHANNEL_ACCESS_TOKEN`, `CHANNEL_SECRET`, `MYSELF` (your user id in Line) and `GROUP` (your group id in line) to begin with
+-   Have a `config.py` file which contains your `CHANNEL_ACCESS_TOKEN`, `CHANNEL_SECRET`, `MYSELF` (your user id in Line) and `GROUP` (your group id in Line) to begin with
 -   Fire up ngrok server by running `ngrok http 5000`
 -   Run `python ./main.py` to get the bot working
 -   In your Line Dev Console, change the webhook url to whatever ngrok gives you and add `/callback` at the end, like: `https://d5d1-220-132-157-246.ngrok.io/callback`
